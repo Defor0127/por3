@@ -1,19 +1,19 @@
 export const metadata = {
-  title: "About NOVA | creative NOVA",
+  title: "About | illustory Van A",
 };
 
 export default function AboutPage() {
   return (
     <>
       <section className="pageTitle">
-        <h1 style={{ fontFamily: "var(--font-serif)" }}>About NOVA</h1>
+        <h1 style={{ fontFamily: "var(--font-serif)" }}>About</h1>
       </section>
       <section className="aboutContent">
-        <p>
-          creative NOVA는 Generative AI art & design을 기반으로 한 크리에이티브 스튜디오입니다.
-        </p>
-        <p>
-          사진, 픽토리얼, 캠페인 등 다양한 영역에서 감각적인 시각 작업을 선보입니다.
+        <p className="profileName">일러스토리 반아 (illustory Van A)</p>
+        <p className="profileTagline">마음과 마음을 잇는 이야기 일러스토리레이터</p>
+        <p className="profileDesc">
+          단어와 문장들에서 느껴지는 감정들을 그림으로 옮기며,
+          일상 속의 작은 순간을 조용한 이야기로 기록합니다.
         </p>
       </section>
     </>

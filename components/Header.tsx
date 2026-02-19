@@ -7,10 +7,7 @@ import { useState } from "react";
 const navItems = [
   { href: "/", label: "Home" },
   { href: "/works", label: "Works" },
-  { href: "/pictorial", label: "Pictorial" },
-  { href: "/photography", label: "Photography" },
-  { href: "/campaign", label: "Campaign" },
-  { href: "/about", label: "About NOVA" },
+  { href: "/about", label: "About" },
 ];
 
 export default function Header() {
@@ -21,7 +18,7 @@ export default function Header() {
     <header className="header">
       <nav className="nav">
         <Link href="/" className="logo" style={{ fontFamily: "var(--font-serif)" }}>
-          NOVA
+          illustory Van A
         </Link>
         <ul className={`navLinks ${menuOpen ? "open" : ""}`}>
           {navItems.map(({ href, label }) => (

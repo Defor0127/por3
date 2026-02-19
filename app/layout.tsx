@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Inter } from "next/font/google";
+import { Noto_Sans_KR, Noto_Serif_KR } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const cormorant = Cormorant_Garamond({
+const notoSerif = Noto_Serif_KR({
   subsets: ["latin"],
-  weight: ["400", "600"],
+  weight: ["400", "500", "700"],
   variable: "--font-serif",
 });
 
-const inter = Inter({
+const notoSans = Noto_Sans_KR({
   subsets: ["latin"],
   weight: ["300", "400", "500"],
   variable: "--font-sans",
@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ko" className={`${cormorant.variable} ${inter.variable}`}>
+    <html lang="ko" className={`${notoSerif.variable} ${notoSans.variable}`}>
       <body style={{ fontFamily: "var(--font-sans)" }}>
         <Header />
         <main className="main">{children}</main>
