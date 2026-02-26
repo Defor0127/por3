@@ -10,10 +10,18 @@ export default function AboutPage() {
       </section>
       <section className="aboutContent">
         <p className="profileName">일러스토리 반아 (illustory Van A)</p>
-        <p className="profileTagline">마음과 마음을 잇는 이야기 일러스토리레이터</p>
+        <p className="profileTagline">
+          마음과 마음을 잇는 이야기를 그리는 일러스토리레이터
+        </p>
         <p className="profileDesc">
           단어와 문장들에서 느껴지는 감정들을 그림으로 옮기며,
           일상 속의 작은 순간을 조용한 이야기로 기록합니다.
+        </p>
+        <p className="profileContactTitle">Contact</p>
+        <p className="profileContact">
+          E-mail&nbsp;&nbsp;illustory_van@naver.com
+          <br />
+          Instagram&nbsp;&nbsp;@illustory_van
         </p>
       </section>
     </>
