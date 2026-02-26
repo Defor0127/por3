@@ -17,7 +17,7 @@ const notoSans = Noto_Sans_KR({
 });
 
 export const metadata: Metadata = {
-  title: "creative NOVA",
+  title: "illustory Van A",
   description: "Generative AI art & design",
 };
 
